@@ -5,6 +5,10 @@
 #ifndef CORE_WINDOW_H_
 #define CORE_WINDOW_H_
 
+
+namespace windowRayCPP
+{
+	
 class window
 {
 
@@ -32,5 +36,8 @@ class window
 		void close();
 
 };
+
+}
+
 
 #endif /* CORE_WINDOW_H_ */
