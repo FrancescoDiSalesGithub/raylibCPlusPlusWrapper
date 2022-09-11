@@ -5,13 +5,14 @@
 #include<string>
 #include"raylib.h"
 
+using namespace windowRayCPP;
+
 window::window(int screenWidth,int screenHeight,std::string titleWindow)
 {
 	this->screenWidth = screenWidth;
 	this->screenHeight = screenHeight;
 
 	this->titleWindow = titleWindow;
-
 }
 
 void window::init()
