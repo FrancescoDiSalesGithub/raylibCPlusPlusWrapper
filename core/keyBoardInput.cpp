@@ -318,3 +318,236 @@ bool keyBoardInput::isKeyPressedEnter()
 
 }
 
+bool keyBoardInput::isKeyPressedA()
+{
+	if(IsKeyPressed(KEY_A))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedB()
+{
+	if(IsKeyPressed(KEY_B))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedC()
+{
+	if(IsKeyPressed(KEY_C))
+		return true;
+
+	return false;
+
+}
+
+bool keyBoardInput::isKeyPressedD()
+{
+	if(IsKeyPressed(KEY_D))
+		return true;
+
+	return false;
+}
+
+bool keyBoardInput::isKeyPressedE()
+{
+	if(IsKeyPressed(KEY_E))
+			return true;
+
+	return false;
+
+}
+
+bool keyBoardInput::isKeyPressedF()
+{
+	if(IsKeyPressed(KEY_F))
+		return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedG()
+{
+	if(IsKeyPressed(KEY_G))
+			return true;
+
+	return false;
+
+}
+
+bool keyBoardInput::isKeyPressedH()
+{
+	if(IsKeyPressed(KEY_H))
+		return true;
+
+	return false;
+
+}
+
+bool keyBoardInput::isKeyPressedI()
+{
+
+	if(IsKeyPressed(KEY_I))
+		return true;
+
+	return false;
+
+}
+
+bool keyBoardInput::isKeyPressedJ()
+{
+	if(IsKeyPressed(KEY_J))
+			return true;
+
+		return false;
+
+}
+
+bool keyBoardInput::isKeyPressedK()
+{
+	if(IsKeyPressed(KEY_K))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedL()
+{
+	if(IsKeyPressed(KEY_L))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedM()
+{
+	if(IsKeyPressed(KEY_M))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedN()
+{
+	if(IsKeyPressed(KEY_N))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedO()
+{
+	if(IsKeyPressed(KEY_O))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedP()
+{
+	if(IsKeyPressed(KEY_P))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedQ()
+{
+	if(IsKeyPressed(KEY_Q))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedR()
+{
+	if(IsKeyPressed(KEY_R))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedS()
+{
+	if(IsKeyPressed(KEY_S))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedT()
+{
+	if(IsKeyPressed(KEY_T))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedU()
+{
+	if(IsKeyPressed(KEY_U))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedV()
+{
+	if(IsKeyPressed(KEY_V))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedW()
+{
+	if(IsKeyPressed(KEY_W))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedX()
+{
+	if(IsKeyPressed(KEY_X))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedY()
+{
+	if(IsKeyPressed(KEY_Y))
+						return true;
+
+					return false;
+
+}
+
+bool keyBoardInput::isKeyPressedZ()
+{
+	if(IsKeyPressed(KEY_Z))
+						return true;
+
+					return false;
+
+}
