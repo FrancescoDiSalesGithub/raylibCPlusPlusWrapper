@@ -1,9 +1,3 @@
-/*
- * ImageCanvas.cpp
- *
- *  Created on: 18 set 2022
- *      Author: frank
- */
 
 #include "ImageCanvas.h"
 
