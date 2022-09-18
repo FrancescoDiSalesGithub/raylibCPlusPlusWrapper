@@ -44,6 +44,16 @@ void window::drawTextWindow(std::string text,int xPosition,int yPosition,int fon
 	DrawText(text.c_str(),xPosition,yPosition,fontSize,color);
 }
 
+void window::drawTexture(Texture2D texture,float positionX,float positionY,Color color)
+{
+	DrawTexture(texture,positionX,positionY,color);
+}
+
+void window::undrawTexture(Texture2D texture)
+{
+	UnloadTexture(texture);
+}
+
 bool window::isWindowsClosed()
 {
 	return WindowShouldClose();

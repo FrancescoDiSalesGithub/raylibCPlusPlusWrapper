@@ -32,6 +32,9 @@ class window
 
 		void setBackgroundPlain(CLITERAL (Color) color);
 		void drawTextWindow(std::string text,int xPosition,int yPosition,int fontSize,CLITERAL(Color) color);
+		void drawTexture(Texture2D texture,float positionX,float positionY,Color color);
+
+		void undrawTexture(Texture2D texture);
 
 		bool isWindowsClosed();
 		void close();
