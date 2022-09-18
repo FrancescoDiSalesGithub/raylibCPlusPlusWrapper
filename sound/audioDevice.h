@@ -22,7 +22,8 @@ namespace AUDIODEVICERAYCPP
 
 			void setSoundVolume(Sound sound,float volume);
 
-			virtual ~audioDevice();
+			void audioDeviceInit();
+			void audioDeviceStop();
 			void removeBufferSoundMulti();
 	};
 }

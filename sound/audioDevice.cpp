@@ -4,16 +4,21 @@
 
 using namespace AUDIODEVICERAYCPP;
 
+
 audioDevice::audioDevice()
+{
+
+}
+
+void audioDevice::audioDeviceInit()
 {
 	InitAudioDevice();
 }
 
-audioDevice::~audioDevice()
+void audioDevice::audioDeviceStop()
 {
 	CloseAudioDevice();
 }
-
 
 void audioDevice::playMusic(Music music)
 {

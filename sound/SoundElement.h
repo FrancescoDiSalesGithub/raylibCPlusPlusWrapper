@@ -15,7 +15,12 @@ namespace SOUNDRAYCPP
 			Sound sound;
 		public:
 			SoundElement(std::string filename);
-			virtual ~SoundElement();
+
+			std::string getFileName();
+			Sound getSound();
+
+			void unloadSound();
+
 	};
 }
 
