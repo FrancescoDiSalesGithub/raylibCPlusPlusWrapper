@@ -21,7 +21,9 @@ class window
 
 		window(int screenWidth,int screenHeight,std::string titleWindow);
 
+
 		void init();
+
 
 		void setFPS(int fps);
 

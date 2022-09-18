@@ -12,7 +12,6 @@ window::window(int screenWidth,int screenHeight,std::string titleWindow)
 
 	this->titleWindow = titleWindow;
 
-
 }
 
 void window::init()
@@ -42,7 +41,7 @@ void window::setBackgroundPlain(CLITERAL(Color) color)
 
 void window::drawTextWindow(std::string text,int xPosition,int yPosition,int fontSize,CLITERAL(Color) color)
 {
-	DrawText(text.c_str(),xPosition,yPosition,fontSize,LIGHTGRAY);
+	DrawText(text.c_str(),xPosition,yPosition,fontSize,color);
 }
 
 bool window::isWindowsClosed()
