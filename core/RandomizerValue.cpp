@@ -16,7 +16,7 @@ RandomizerValue::RandomizerValue(int beginSeed,int endSeed)
 
 int RandomizerValue::getRandomizeValue()
 {
-	return GetRandomValue(2,2);
+	return GetRandomValue(this->beginSeed,this->endSeed);
 }
 
 
