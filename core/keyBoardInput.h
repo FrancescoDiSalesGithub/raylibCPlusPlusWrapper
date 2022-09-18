@@ -75,6 +75,11 @@ namespace keyboardInputRayCPP
 			bool isKeyPressedY();
 			bool isKeyPressedZ();
 
+			bool compareKeyPressed(int keyFrom,int keyTo);
+
+			int getKeyPressed();
+			bool IsSpecificKeyPressed(int);
+
 	};
 
 }
