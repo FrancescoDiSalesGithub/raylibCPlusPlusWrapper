@@ -1,4 +1,3 @@
-
 #ifndef SOUND_AUDIODEVICE_H_
 #define SOUND_AUDIODEVICE_H_
 
