@@ -62,10 +62,7 @@ Rectangle ShapeCanvas::createRectangleObject()
     return     objectRectangle;
 }
 
-void ShapeCanvas::setRectangleWidth(float width)
-{
 
-}
 
 void ShapeCanvas::drawRectangle(int posX, int posY, int width, int height,Color color)
 {
