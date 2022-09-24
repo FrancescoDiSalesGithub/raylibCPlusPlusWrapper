@@ -1,5 +1,3 @@
-
-
 #include "ShapeCanvas.h"
 
 #include "raylib.h"
@@ -8,6 +6,63 @@ using namespace SHAPECANVASRAYCPP;
 
 
 ShapeCanvas::ShapeCanvas()
+{
+
+}
+
+ShapeCanvas::ShapeCanvas(Rectangle rec)
+{
+    this->rec = rec;
+}
+
+void ShapeCanvas::setRectangleHeight(float height)
+{
+    rec.height = height;
+}
+
+void ShapeCanvas::setRectangleWidth(float width)
+{
+    rec.width = width;
+}
+
+void ShapeCanvas::setXPosition(float xPosition)
+{
+    rec.x = xPosition;
+}
+
+void ShapeCanvas::setYPosition(float yPosition)
+{
+    rec.y = yPosition;
+}
+
+float ShapeCanvas::getRectangleHeight()
+{
+    return rec.height;
+}
+
+float ShapeCanvas::getRectangleWidth()
+{
+    return rec.width;
+}
+
+float ShapeCanvas::getXPosition()
+{
+    return rec.x;
+}
+
+float ShapeCanvas::getYPosition()
+{
+    return rec.y;
+}
+
+
+Rectangle ShapeCanvas::createRectangleObject()
+{
+    Rectangle objectRectangle;
+    return     objectRectangle;
+}
+
+void ShapeCanvas::setRectangleWidth(float width)
 {
 
 }
