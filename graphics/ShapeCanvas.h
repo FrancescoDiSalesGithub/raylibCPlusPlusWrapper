@@ -8,19 +8,23 @@ namespace SHAPECANVASRAYCPP
 {
 	class ShapeCanvas
 	{
+        private:
+            Rectangle rec;
+
 		public:
 			ShapeCanvas();
+            ShapeCanvas(Rectangle rec);
 
 			Rectangle createRectangleObject();
 			void setXPosition(float x);
 			void setYPosition(float y);
-            		void setRectangleWidth(float width);
-            		void setRectangleHeight(float height);
+            void setRectangleWidth(float width);
+            void setRectangleHeight(float height);
 
-            		float getXPosition();
-            		float getYPosition();
-            		float getRectangleWidth();
-            		float getRectangleHeight();
+            float getXPosition();
+            float getYPosition();
+            float getRectangleWidth();
+            float getRectangleHeight();
 
 
 			void drawRectangle(int xPosition,int yPosition,int width,int height,Color color);
