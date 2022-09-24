@@ -14,9 +14,14 @@ namespace SPRITERAYCPP
 			std::string filename;
 			Texture2D texture2D;
 		public:
+		    	spriteCanvas();
 			spriteCanvas(std::string filename);
 
 			void draw(Vector2 position,Color color);
+			void drawRec(Vector2 position,Rectangle rec);
+
+            		void initTexture2D();
+            		void unloadTexture2D();
 
 			Texture2D getTexture2D();
 			std::string getFileName();
@@ -24,7 +29,7 @@ namespace SPRITERAYCPP
 			void setTexture2D(Texture2D texture2D);
 			void setFileName(std::string filename);
 
-			virtual ~spriteCanvas();
+
 	};
 }
 
