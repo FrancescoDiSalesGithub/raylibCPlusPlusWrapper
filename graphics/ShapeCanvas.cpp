@@ -55,6 +55,10 @@ float ShapeCanvas::getYPosition()
     return rec.y;
 }
 
+Rectangle ShapeCanvas::getRectangleObject()
+{
+    return rec;
+}
 
 Rectangle ShapeCanvas::createRectangleObject()
 {
@@ -117,4 +121,14 @@ void ShapeCanvas::drawPolyLines(Vector2 center,int sides,float radius,float rota
 void ShapeCanvas::drawLine(int startPosX,int startPosY,int endPosX,int endPosY,Color color)
 {
 	DrawLine(startPosX, startPosY, endPosX, endPosY, color);
+}
+
+void ShapeCanvas::drawRectangleObject(Color color)
+{
+    DrawRectangleRec(this->rec,color);
+}
+
+void ShapeCanvas::drawRectangleObject(Rectangle rec,Color color)
+{
+    DrawRectangleRec(rec,color);
 }
