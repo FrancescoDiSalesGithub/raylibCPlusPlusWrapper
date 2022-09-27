@@ -25,6 +25,7 @@ namespace SHAPECANVASRAYCPP
             float getYPosition();
             float getRectangleWidth();
             float getRectangleHeight();
+            Rectangle getRectangleObject();
 
 
 			void drawRectangle(int xPosition,int yPosition,int width,int height,Color color);
@@ -42,6 +43,9 @@ namespace SHAPECANVASRAYCPP
 			void drawPolyLines(Vector2 center,int sides,float radius,float rotation,Color color);
 
 			void drawLine(int startPosX,int startPosY,int endPosX,int endPosY,Color color);
+
+			void drawRectangleObject(Color color);
+			void drawRectangleObject(Rectangle rectangle,Color color);
 
 	};
 
